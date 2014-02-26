@@ -5,20 +5,88 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2012-01-01T00:00:00Z</updated>
+  <updated>2014-02-24T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/2012/01/01/example-article.html"/>
-    <id>http://blog.url.com/2012/01/01/example-article.html</id>
-    <published>2012-01-01T00:00:00Z</published>
-    <updated>2014-02-25T21:14:47+00:00</updated>
+    <title>Algodoo</title>
+    <link rel="alternate" href="http://blog.url.com/2014/02/24/algodoo.html"/>
+    <id>http://blog.url.com/2014/02/24/algodoo.html</id>
+    <published>2014-02-24T00:00:00Z</published>
+    <updated>2014-02-26T10:02:00+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+    <content type="html">&lt;p&gt;After trying to get my head around lots of different software, I settled on using Algodoo (previously called phun) for testing what my robot's walking motion might behave like.&lt;/p&gt;
+
+&lt;p&gt;My main problem was a Mac that is on its last legs. I wanted to use Autodesk Inventor. If you are a student I highly recommend you to register for their student scheme where you can get every Autodesk product for free.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Joystick</title>
+    <link rel="alternate" href="http://blog.url.com/2014/02/23/joystick.html"/>
+    <id>http://blog.url.com/2014/02/23/joystick.html</id>
+    <published>2014-02-23T00:00:00Z</published>
+    <updated>2014-02-26T10:26:03+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I created a very simple mobile-friendly joystick here. My plan is to attach a Spark Core to the robot allowing it to both send and receive commands over Wifi.&lt;/p&gt;
+
+&lt;p&gt;The first goal will be to send movement commands, so to begin with I plan on implementing an 8-way joystick. Forward and Backward will simply require changing the direction of the motors, but left and right will mean that one side rotates forward whilst the other remains still or rotates backwards.&lt;/p&gt;
+
+&lt;iframe src="hud.html" style="width: 600px; height: 400px;"&gt;&lt;/iframe&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Mechanisms</title>
+    <link rel="alternate" href="http://blog.url.com/2014/02/20/mechanisms.html"/>
+    <id>http://blog.url.com/2014/02/20/mechanisms.html</id>
+    <published>2014-02-20T00:00:00Z</published>
+    <updated>2014-02-26T10:19:49+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;Bits to atoms &lt;a href="https://twitter.com/search?q=%23hackthearduinorobot&amp;amp;src=hash"&gt;#hackthearduinorobot&lt;/a&gt; &lt;a href="https://t.co/t1d3r6l0PW"&gt;https://t.co/t1d3r6l0PW&lt;/a&gt;&lt;/p&gt;&amp;mdash; John Rees (@john_rees) &lt;a href="https://twitter.com/john_rees/statuses/435475277616254976"&gt;February 17, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;Rapid Prototyping &lt;a href="https://twitter.com/search?q=%23HackTheArduinoRobot&amp;amp;src=hash"&gt;#HackTheArduinoRobot&lt;/a&gt; &lt;a href="http://t.co/WXl1ljipAN"&gt;pic.twitter.com/WXl1ljipAN&lt;/a&gt;&lt;/p&gt;&amp;mdash; OFFRObot (@off_robot) &lt;a href="https://twitter.com/off_robot/statuses/435476309729611776"&gt;February 17, 2014&lt;/a&gt;&lt;/blockquote&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Break</title>
+    <link rel="alternate" href="http://blog.url.com/2014/02/17/break.html"/>
+    <id>http://blog.url.com/2014/02/17/break.html</id>
+    <published>2014-02-17T00:00:00Z</published>
+    <updated>2014-02-26T11:20:13+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I'm going to be away until 27th Feb, but I will make sure I post anything that happens while I'm gone.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>3D Model</title>
+    <link rel="alternate" href="http://blog.url.com/2014/02/12/3d-model.html"/>
+    <id>http://blog.url.com/2014/02/12/3d-model.html</id>
+    <published>2014-02-12T00:00:00Z</published>
+    <updated>2014-02-26T10:19:38+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I was being slowed down by the new parametric tools so to give myself a bit of a 'confidence boost' I decided to model it quickly in Rhinocerous. A tool that I used frequently last year in Fab Lab Barcelona.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;Next stop, simulationville &lt;a href="http://t.co/I0C4HUcWuP"&gt;pic.twitter.com/I0C4HUcWuP&lt;/a&gt;&lt;/p&gt;&amp;mdash; OFFRObot (@off_robot) &lt;a href="https://twitter.com/off_robot/statuses/433325102625611776"&gt;February 11, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I asked the following question a few times&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;&lt;a href="https://twitter.com/robotchallenge"&gt;@robotchallenge&lt;/a&gt; &lt;a href="https://twitter.com/arduino"&gt;@arduino&lt;/a&gt; &lt;a href="https://twitter.com/RSComponents"&gt;@rscomponents&lt;/a&gt; is there a scale/dimension diagram of the robot available anywhere? Thanks &lt;a href="https://twitter.com/search?q=%23HacktheArduinoRobot&amp;amp;src=hash"&gt;#HacktheArduinoRobot&lt;/a&gt;&lt;/p&gt;&amp;mdash; OFFRObot (@off_robot) &lt;a href="https://twitter.com/off_robot/statuses/434734886444752896"&gt;February 15, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;but wasn't getting anywhere with it, so I decided to make a scale model in Rhino with the promise to improve it in time.&lt;/p&gt;
+
+&lt;script src="https://embed.github.com/view/3d/johnrees/offrobot-old/blob/master/robot/robot.stl"&gt;&lt;/script&gt;
+
+&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;A very crude 3D model of the Arduino Robot &lt;a href="https://t.co/C62b3qfR3K"&gt;https://t.co/C62b3qfR3K&lt;/a&gt; No measurements to hand, will improve tomorrow &lt;a href="https://twitter.com/search?q=%23HackTheArduinoRobot&amp;amp;src=hash"&gt;#HackTheArduinoRobot&lt;/a&gt;&lt;/p&gt;&amp;mdash; OFFRObot (@off_robot) &lt;a href="https://twitter.com/off_robot/statuses/433683527201075200"&gt;February 12, 2014&lt;/a&gt;&lt;/blockquote&gt;
 </content>
   </entry>
 </feed>
