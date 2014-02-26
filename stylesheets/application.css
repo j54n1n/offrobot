@@ -1,7 +1,7 @@
 /* line 1, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
 body {
   background: #Fefefe;
-  font-family: 'Lucida Grande';
+  font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Tahoma, Arial, sans;
   -webkit-font-smoothing: subpixel-antialiased;
   margin: 20px 0;
   color: #444; }
@@ -30,5 +30,5 @@ h2 {
 /* line 30, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
 header {
   font-size: 2em;
-  font-family: Futura;
+  font-family: 'Futura', 'Helvetica Neue', Helvetica, 'Lucida Grande', Tahoma, Arial, sans;
   text-transform: uppercase; }
