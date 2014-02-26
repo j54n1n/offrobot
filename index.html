@@ -6,14 +6,12 @@
     <title>
       OFFRobot
     </title>
-    <link href='stylesheets/application.css' rel='stylesheet' type='text/css'>
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link href='/stylesheets/application.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div id='container'>
       <header>
         <span class='title'>OFFRobot</span>
-        <a href="/hud.html">HUD</a>
       </header>
       <div id='main' role='main'>
         
@@ -24,21 +22,39 @@
         
         <p>My main problem was a Mac that is on its last legs. I wanted to use Autodesk Inventor. If you are a student I highly recommend you to register for their student scheme where you can get every Autodesk product for free.</p>
         
+        <p>The video below shows my first attempt at creating spur gears (cogs) haha</p>
+        
+        <iframe width="420" height="315" src="//www.youtube.com/embed/7S8HxJ-PneI" frameborder="0" allowfullscreen=""></iframe>
+        
           <h2><a href="/2014/02/23/joystick.html">Joystick</a> <span>Feb 23</span></h2>
           <!-- use article.summary(250) if you have Nokogiri available to show just
                the first 250 characters -->
-          <p>I created a very simple mobile-friendly joystick here. My plan is to attach a Spark Core to the robot allowing it to both send and receive commands over Wifi.</p>
+          <p>I decided to create a very simple mobile-friendly joystick.</p>
         
-        <p>The first goal will be to send movement commands, so to begin with I plan on implementing an 8-way joystick. Forward and Backward will simply require changing the direction of the motors, but left and right will mean that one side rotates forward whilst the other remains still or rotates backwards.</p>
+        <p>My plan is to attach a Spark Core to the robot allowing it to both send and receive commands over Wifi.</p>
+        
+        <p><img alt="Spark Core" src="http://www.geek.com/wp-content/uploads/2013/05/Spark-Core-Board-590x331.jpg" /></p>
+        
+        <p>The primary aim will be to have the ability to send movement commands… so to begin with I will implement 8-way joystick movement. Forward and Backward will simply require changing the direction of the motors, but left and right will mean that one side rotates forward whilst the other remains still or rotates backwards.</p>
+        
+        <p><strong>You can test the joystick in the area below. Click/Touch and drag, it should show your movement direction at the bottom of the window.</strong></p>
         
         <iframe src="hud.html" style="width: 600px; height: 400px;"></iframe>
         
           <h2><a href="/2014/02/20/mechanisms.html">Mechanisms</a> <span>Feb 20</span></h2>
           <!-- use article.summary(250) if you have Nokogiri available to show just
                the first 250 characters -->
-          <blockquote class="twitter-tweet" lang="en"><p>Bits to atoms <a href="https://twitter.com/search?q=%23hackthearduinorobot&amp;src=hash">#hackthearduinorobot</a> <a href="https://t.co/t1d3r6l0PW">https://t.co/t1d3r6l0PW</a></p>&mdash; John Rees (@john_rees) <a href="https://twitter.com/john_rees/statuses/435475277616254976">February 17, 2014</a></blockquote>
+          <blockquote class="twitter-tweet" lang="en"><p>progress <a href="http://t.co/GuIs2ZJUpR">pic.twitter.com/GuIs2ZJUpR</a></p>&mdash; OFFRObot (@off_robot) <a href="https://twitter.com/off_robot/statuses/431483822765383680">February 6, 2014</a></blockquote>
+        
+        <blockquote class="twitter-tweet" lang="en"><p>Bits to atoms <a href="https://twitter.com/search?q=%23hackthearduinorobot&amp;src=hash">#hackthearduinorobot</a> <a href="https://t.co/t1d3r6l0PW">https://t.co/t1d3r6l0PW</a></p>&mdash; John Rees (@john_rees) <a href="https://twitter.com/john_rees/statuses/435475277616254976">February 17, 2014</a></blockquote>
         
         <blockquote class="twitter-tweet" lang="en"><p>Rapid Prototyping <a href="https://twitter.com/search?q=%23HackTheArduinoRobot&amp;src=hash">#HackTheArduinoRobot</a> <a href="http://t.co/WXl1ljipAN">pic.twitter.com/WXl1ljipAN</a></p>&mdash; OFFRObot (@off_robot) <a href="https://twitter.com/off_robot/statuses/435476309729611776">February 17, 2014</a></blockquote>
+        
+        <p>I also created a Pinterest board to start collecting ideas. People often overlook Pinterest, or dismiss it as a place where people gather pictures of hairstyles and clothing, but I find it to be an incredibly useful visual bookmarking tool.</p>
+        
+        <p><a data-pin-do="embedBoard" href="http://www.pinterest.com/bitsushi/walkers/" data-pin-scale-width="115" data-pin-scale-height="120" data-pin-board-width="900">Follow John's board WALKERS on Pinterest.</a>
+        <!-- Please call pinit.js only once per page -->
+        <script type="text/javascript" async="" src="//assets.pinterest.com/js/pinit.js"></script></p>
         
           <h2><a href="/2014/02/17/break.html">Break</a> <span>Feb 17</span></h2>
           <!-- use article.summary(250) if you have Nokogiri available to show just
@@ -58,42 +74,35 @@
         
         <p>but wasn't getting anywhere with it, so I decided to make a scale model in Rhino with the promise to improve it in time.</p>
         
-        <script src="https://embed.github.com/view/3d/johnrees/offrobot-old/blob/master/robot/robot.stl"></script>
+        <script src="https://embed.github.com/view/3d/johnrees/offrobot-old/master/robot/robot.stl"></script>
         
         <blockquote class="twitter-tweet" lang="en"><p>A very crude 3D model of the Arduino Robot <a href="https://t.co/C62b3qfR3K">https://t.co/C62b3qfR3K</a> No measurements to hand, will improve tomorrow <a href="https://twitter.com/search?q=%23HackTheArduinoRobot&amp;src=hash">#HackTheArduinoRobot</a></p>&mdash; OFFRObot (@off_robot) <a href="https://twitter.com/off_robot/statuses/433683527201075200">February 12, 2014</a></blockquote>
+        
+          <h2><a href="/2014/02/06/dissection.html">Dissection</a> <span>Feb  6</span></h2>
+          <!-- use article.summary(250) if you have Nokogiri available to show just
+               the first 250 characters -->
+          <p>Within no time I'd whisked my robot off to my new workspace at Fab Lab Sitges and was tearing to pieces.</p>
+        
+        <blockquote class="twitter-tweet" lang="en"><p>Performing surgery at <a href="https://twitter.com/fablabsitges">@fablabsitges</a>! <a href="http://t.co/n5Y5fkRlUO">pic.twitter.com/n5Y5fkRlUO</a></p>&mdash; OFFRObot (@off_robot) <a href="https://twitter.com/off_robot/statuses/431408689778814976">February 6, 2014</a></blockquote>
+        
+        <p>Early on I decided that I'd try to ignore the top (controller board) and create a dock solely for the bottom (motor board). This might require adding some custom firmware to the microcontroller, but <em>fingers crossed</em> I don't think it should require too much work.</p>
+        
+          <h2><a href="/2014/02/05/it-begins.html">It begins</a> <span>Feb  5</span></h2>
+          <!-- use article.summary(250) if you have Nokogiri available to show just
+               the first 250 characters -->
+          <p>Today marks the beginning of the crazy project that is OffRobot! Within 48 hours of being notified that I was one of the 10 finalists, there was my robot, neatly packaged and waiting to be played with in Barcelona. This is going to be exciting!</p>
+        
+        <blockquote class="twitter-tweet" lang="en"><p>Hmm I wonder what this could be... <a href="http://t.co/NPflo0FQEt">pic.twitter.com/NPflo0FQEt</a></p>&mdash; OFFRObot (@off_robot) <a href="https://twitter.com/off_robot/statuses/430994399338987520">February 5, 2014</a></blockquote>
+        
+          <h2><a href="/2014/02/04/hi.html">Hi</a> <span>Feb  4</span></h2>
+          <!-- use article.summary(250) if you have Nokogiri available to show just
+               the first 250 characters -->
+          <p>I should probably start off with a quick introduction… Hi. I'm John and I'm a programmer from the UK. Typically I'm found working with servers/websites and apps, although whenever the opportunity arises I like to challenge myself with physical hardware.</p>
+        
+        <p><img alt="Hi" src="../../../images/hi.jpg" /></p>
+        
+        <p>Last year I did the Fab Academy in Fab Lab Barcelona and I really fell for the city. Since then I've been whizzing backwards and forwards between various European cities with my trusty dying macbook always within reach in an effort to pursue some sort of digital nomadic lifestyle.</p>
       </div>
-      <aside>
-        <h2>Recent Articles</h2>
-        <ol>
-          <li>
-            <a href="/2014/02/24/algodoo.html">Algodoo</a>
-            <span>Feb 24</span>
-          </li>
-          <li>
-            <a href="/2014/02/23/joystick.html">Joystick</a>
-            <span>Feb 23</span>
-          </li>
-          <li>
-            <a href="/2014/02/20/mechanisms.html">Mechanisms</a>
-            <span>Feb 20</span>
-          </li>
-          <li>
-            <a href="/2014/02/17/break.html">Break</a>
-            <span>Feb 17</span>
-          </li>
-          <li>
-            <a href="/2014/02/12/3d-model.html">3D Model</a>
-            <span>Feb 12</span>
-          </li>
-        </ol>
-        <h2>Tags</h2>
-        <ol>
-          <li>
-            <a href="/tags/software.html">software</a>
-            (1)
-          </li>
-        </ol>
-      </aside>
     </div>
   </body>
 </html>

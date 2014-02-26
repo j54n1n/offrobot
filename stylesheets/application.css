@@ -1,19 +1,33 @@
 /* line 1, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
 body {
-  background: #F0F0F0;
-  font-family: Helvetica; }
+  background: #Fefefe;
+  font-family: 'Lucida Grande';
+  -webkit-font-smoothing: subpixel-antialiased;
+  margin: 20px 0;
+  color: #444; }
 
-/* line 6, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
+/* line 9, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
+iframe {
+  border: none; }
+
+/* line 13, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
 a {
   color: #00979C;
   text-decoration: none; }
 
-/* line 11, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
+/* line 18, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
+h2 {
+  border-bottom: 1px solid black; }
+  /* line 20, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
+  h2 span {
+    float: right; }
+
+/* line 25, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
 #container {
   max-width: 900px;
   margin: 0 auto; }
 
-/* line 16, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
+/* line 30, /Users/john/Code/offrobot/source/stylesheets/application.css.scss */
 header {
   font-size: 2em;
   font-family: Futura;
