@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge;chrome=1' http-equiv='X-UA-Compatible'>
+    <title>
+      OFFRobot - A tale of Two Boards
+    </title>
+    <link href='/stylesheets/application.css' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div id='container'>
+      <header>
+        <span class='title'>OFFRobot</span>
+      </header>
+      <div id='main' role='main'>
+        <p>As you probably know, the Arduino Robot is infact two Arduinos (Leonardos) on seperate boards, that communicate as a master/slave over I2C(?).</p>
+        
+        <p>The top board, the Control Board, behaves like a typical Arduino and it can send commands to the lower, Motor Board.</p>
+        
+        <p><img alt="top board" src="http://arduino.cc/en/uploads/Main/LottieLemon_figure_ref_top.png" /></p>
+        
+        <p>The Motor Board simply responds to commands, it can however run without being connected to the upper board. The issue is that with default firmware it has very limited functionality.</p>
+        
+        <p><img alt="bottom board" src="http://arduino.cc/en/uploads/Main/LottieLemon_figure_ref_bottom.png" /></p>
+        
+        <p>My electronics plans for this project are relatively straightforward. I want to send movement commands to the robot and receive feedback from sensors, such as strain on the motors and possibly things like temperature of the ground. For now I am happy testing the robot using just the lower board, but soon I will probably have to reflash it in order to use the IO pins without the upper board connected.</p>
+      </div>
+    </div>
+  </body>
+</html>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

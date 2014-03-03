@@ -14,15 +14,19 @@
     <link rel="alternate" href="http://blog.url.com/2014/03/02/3d-printing.html"/>
     <id>http://blog.url.com/2014/03/02/3d-printing.html</id>
     <published>2014-03-02T00:00:00Z</published>
-    <updated>2014-03-03T01:53:27+01:00</updated>
+    <updated>2014-03-03T02:28:40+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;So today I started to replace plywood components with PLA. It made a big improvement to the sturdiness of the model.&lt;/p&gt;
 
+&lt;p&gt;&lt;img alt="first" src="http://i.imgur.com/ePpT8NF.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was the first of many iterations during the printing process. It quickly became apparent that this blue was far too high above the gears and was causing the legs to twist when they walked. I managed to remedy this but wish I'd spent more time simulating the movement in 3D software rather than guessing it from some 2D flash animations I made.&lt;/p&gt;
+
 &lt;p&gt;&lt;img alt="robot" src="http://i.imgur.com/6UDYlrm.jpg" /&gt;&lt;/p&gt;
 
-&lt;p&gt;Before RobotChallenge I will redesign the gear system as the motors are having a lot of trouble powering the movement of the legs. Now that I have access to a printer I can make much finer teeth on the spur gears, and even have them at angles as shown below.&lt;/p&gt;
+&lt;p&gt;Before RobotChallenge I will redesign the gear system, using Inventor, as the motors are having a lot of trouble powering the movement of the legs. Now that I have access to a printer I can make much finer teeth on the spur gears, and even have them at angles as shown below.&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="gears" src="http://i.imgur.com/uYNg3gs.jpg" /&gt;&lt;/p&gt;
 
@@ -45,6 +49,28 @@
     <content type="html">&lt;p&gt;This was one of the clips that was at the back of my mind when I entered this competition.&lt;/p&gt;
 
 &lt;iframe width="420" height="315" src="//www.youtube.com/embed/adm72GaaCJ8" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+</content>
+  </entry>
+  <entry>
+    <title>A tale of Two Boards</title>
+    <link rel="alternate" href="http://blog.url.com/2014/02/28/a-tale-of-two-boards.html"/>
+    <id>http://blog.url.com/2014/02/28/a-tale-of-two-boards.html</id>
+    <published>2014-02-28T00:00:00Z</published>
+    <updated>2014-03-03T02:02:01+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;As you probably know, the Arduino Robot is infact two Arduinos (Leonardos) on seperate boards, that communicate as a master/slave over I2C(?).&lt;/p&gt;
+
+&lt;p&gt;The top board, the Control Board, behaves like a typical Arduino and it can send commands to the lower, Motor Board.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="top board" src="http://arduino.cc/en/uploads/Main/LottieLemon_figure_ref_top.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Motor Board simply responds to commands, it can however run without being connected to the upper board. The issue is that with default firmware it has very limited functionality.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="bottom board" src="http://arduino.cc/en/uploads/Main/LottieLemon_figure_ref_bottom.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;My electronics plans for this project are relatively straightforward. I want to send movement commands to the robot and receive feedback from sensors, such as strain on the motors and possibly things like temperature of the ground. For now I am happy testing the robot using just the lower board, but soon I will probably have to reflash it in order to use the IO pins without the upper board connected.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -123,18 +149,6 @@
 &lt;p&gt;&lt;a data-pin-do="embedBoard" href="http://www.pinterest.com/bitsushi/walkers/" data-pin-scale-width="115" data-pin-scale-height="120" data-pin-board-width="900"&gt;Follow John's board WALKERS on Pinterest.&lt;/a&gt;
 &lt;!-- Please call pinit.js only once per page --&gt;
 &lt;script type="text/javascript" async="" src="//assets.pinterest.com/js/pinit.js"&gt;&lt;/script&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Break</title>
-    <link rel="alternate" href="http://blog.url.com/2014/02/17/break.html"/>
-    <id>http://blog.url.com/2014/02/17/break.html</id>
-    <published>2014-02-17T00:00:00Z</published>
-    <updated>2014-02-26T12:20:13+01:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;I'm going to be away until 27th Feb, but I will make sure I post anything that happens while I'm gone.&lt;/p&gt;
 </content>
   </entry>
 </feed>

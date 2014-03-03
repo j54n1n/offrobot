@@ -20,9 +20,13 @@
                the first 250 characters -->
           <p>So today I started to replace plywood components with PLA. It made a big improvement to the sturdiness of the model.</p>
         
+        <p><img alt="first" src="http://i.imgur.com/ePpT8NF.jpg" /></p>
+        
+        <p>This was the first of many iterations during the printing process. It quickly became apparent that this blue was far too high above the gears and was causing the legs to twist when they walked. I managed to remedy this but wish I'd spent more time simulating the movement in 3D software rather than guessing it from some 2D flash animations I made.</p>
+        
         <p><img alt="robot" src="http://i.imgur.com/6UDYlrm.jpg" /></p>
         
-        <p>Before RobotChallenge I will redesign the gear system as the motors are having a lot of trouble powering the movement of the legs. Now that I have access to a printer I can make much finer teeth on the spur gears, and even have them at angles as shown below.</p>
+        <p>Before RobotChallenge I will redesign the gear system, using Inventor, as the motors are having a lot of trouble powering the movement of the legs. Now that I have access to a printer I can make much finer teeth on the spur gears, and even have them at angles as shown below.</p>
         
         <p><img alt="gears" src="http://i.imgur.com/uYNg3gs.jpg" /></p>
         
@@ -38,6 +42,21 @@
           <p>This was one of the clips that was at the back of my mind when I entered this competition.</p>
         
         <iframe width="420" height="315" src="//www.youtube.com/embed/adm72GaaCJ8" frameborder="0" allowfullscreen=""></iframe>
+        
+          <h2><a href="/2014/02/28/a-tale-of-two-boards.html">A tale of Two Boards</a> <span>Feb 28</span></h2>
+          <!-- use article.summary(250) if you have Nokogiri available to show just
+               the first 250 characters -->
+          <p>As you probably know, the Arduino Robot is infact two Arduinos (Leonardos) on seperate boards, that communicate as a master/slave over I2C(?).</p>
+        
+        <p>The top board, the Control Board, behaves like a typical Arduino and it can send commands to the lower, Motor Board.</p>
+        
+        <p><img alt="top board" src="http://arduino.cc/en/uploads/Main/LottieLemon_figure_ref_top.png" /></p>
+        
+        <p>The Motor Board simply responds to commands, it can however run without being connected to the upper board. The issue is that with default firmware it has very limited functionality.</p>
+        
+        <p><img alt="bottom board" src="http://arduino.cc/en/uploads/Main/LottieLemon_figure_ref_bottom.png" /></p>
+        
+        <p>My electronics plans for this project are relatively straightforward. I want to send movement commands to the robot and receive feedback from sensors, such as strain on the motors and possibly things like temperature of the ground. For now I am happy testing the robot using just the lower board, but soon I will probably have to reflash it in order to use the IO pins without the upper board connected.</p>
         
           <h2><a href="/2014/02/24/algodoo.html">Algodoo</a> <span>Feb 24</span></h2>
           <!-- use article.summary(250) if you have Nokogiri available to show just
@@ -136,17 +155,6 @@
         <p>Within a mere 48 hours of being notified that I was one of the 10 finalists, there was my robot. Neatly packaged and waiting to be played with. This is going to be exciting!</p>
         
         <blockquote class="twitter-tweet" lang="en"><p>Hmm I wonder what this could be... <a href="http://t.co/NPflo0FQEt">pic.twitter.com/NPflo0FQEt</a></p>&mdash; OFFRObot (@off_robot) <a href="https://twitter.com/off_robot/statuses/430994399338987520">February 5, 2014</a></blockquote>
-        
-          <h2><a href="/2014/02/04/hi.html">Hi</a> <span>Feb  4</span></h2>
-          <!-- use article.summary(250) if you have Nokogiri available to show just
-               the first 250 characters -->
-          <p>I should probably start off with a quick introduction… Hi. I'm John and I'm a programmer from the UK. Typically I'm found working with servers/websites and apps, although whenever the opportunity arises I like to challenge myself with physical hardware.</p>
-        
-        <p><img alt="Hi" src="../../../images/hi.jpg" /></p>
-        
-        <p>Last year I did the <a href="http://academy.cba.mit.edu/2013/students/rees.john">Fab Academy</a> in <a href="http://fablabbcn.org">Fab Lab Barcelona</a> and I really fell for the city. Since then, together with my trusty dying macbook, I've been whizzing backwards and forwards between European cities in an effort to pursue some sort of 'digital nomadic' lifestyle.</p>
-        
-        <p>I chose to enter this competition because I love playing with arduinos and have fond childhood memories of moving the little turtle around in LOGO. So the Arduino Robot seemed like the perfect fit!</p>
       </div>
     </div>
   </body>
