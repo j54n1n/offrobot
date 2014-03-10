@@ -5,10 +5,51 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-03-02T00:00:00Z</updated>
+  <updated>2014-03-09T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Version i-lost-count</title>
+    <link rel="alternate" href="http://blog.url.com/2014/03/09/version-i-lost-count.html"/>
+    <id>http://blog.url.com/2014/03/09/version-i-lost-count.html</id>
+    <published>2014-03-09T00:00:00Z</published>
+    <updated>2014-03-10T10:24:57+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Still not quite there, so I don't want to waste loads of PLA and print the thing just yet. I am getting very close though, unfortunately this is turning out to be a bit of a nightmare task!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="first" src="http://i.imgur.com/MT41xct.jpg" /&gt;
+&lt;img alt="second" src="http://i.imgur.com/NYJYnTy.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The whole system is much flatter now and the stability improvements are HUGE.&lt;/p&gt;
+
+&lt;p&gt;I also learnt a neat trick from Andrew Leek at the lab. When printing my gears I was struggling to remove the 'brim' support material, and he suggested that I printed a bit slower and without the fans. It worked a treat. The prints are coming out great and they have a super smooth base which is perfect for reducing friction.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Inventor</title>
+    <link rel="alternate" href="http://blog.url.com/2014/03/08/inventor.html"/>
+    <id>http://blog.url.com/2014/03/08/inventor.html</id>
+    <published>2014-03-08T00:00:00Z</published>
+    <updated>2014-03-10T10:20:33+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;After much faffing around I finally decided to model and simulate the robot with Inventor 2014&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="first" src="http://i.imgur.com/nijelVW.png" /&gt;
+&lt;img alt="second" src="http://i.imgur.com/nJbP2mV.png" /&gt;
+&lt;img alt="third" src="http://i.imgur.com/0eOzGTB.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the first time I've used the software but with a little help I was able to grasp the basics.&lt;/p&gt;
+
+&lt;p&gt;I struggled with exporting the models for the laser cutter for a while, eventually I found that you can select a face and then 'export face as' and save it to a dxf. Once you do that you will probably need to open the dxf and save it as an older version (2000) if you wish to import it into Rhino/Illustrator/Inkscape etc.&lt;/p&gt;
+
+&lt;iframe width="420" height="315" src="//www.youtube.com/embed/Dp5whsF6ZQs" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+</content>
+  </entry>
   <entry>
     <title>3D Printing</title>
     <link rel="alternate" href="http://blog.url.com/2014/03/02/3d-printing.html"/>
@@ -95,60 +136,6 @@
 &lt;p&gt;My next step will be to try and export what I design in more powerful software in a format that Algodoo understands. Whilst there are a couple of projects out there - svg2phun and an inscape plugin called phn_output - they seem quite dated and only have Japanese documentation.&lt;/p&gt;
 
 &lt;p&gt;Wish me luck!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Joystick</title>
-    <link rel="alternate" href="http://blog.url.com/2014/02/23/joystick.html"/>
-    <id>http://blog.url.com/2014/02/23/joystick.html</id>
-    <published>2014-02-23T00:00:00Z</published>
-    <updated>2014-02-26T14:43:30+01:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;I decided to create a very simple mobile-friendly joystick.&lt;/p&gt;
-
-&lt;p&gt;My plan is to attach a Spark Core to the robot allowing it to both send and receive commands over Wifi.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Spark Core" src="http://www.geek.com/wp-content/uploads/2013/05/Spark-Core-Board-590x331.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;The primary aim will be to have the ability to send movement commands… so to begin with I will implement 8-way joystick movement. Forward and Backward will simply require changing the direction of the motors, but left and right will mean that one side rotates forward whilst the other remains still or rotates backwards.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;You can test the joystick in the area below. Click/Touch and drag, it should show your movement direction at the bottom of the window.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;iframe src="hud.html" style="width: 600px; height: 400px;"&gt;&lt;/iframe&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mechanisms</title>
-    <link rel="alternate" href="http://blog.url.com/2014/02/20/mechanisms.html"/>
-    <id>http://blog.url.com/2014/02/20/mechanisms.html</id>
-    <published>2014-02-20T00:00:00Z</published>
-    <updated>2014-02-26T17:23:14+01:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;I researched a lot of different mechanisms, but finally settled on the proposed on &lt;a href="http://mechanicalspider.com/concept.html"&gt;http://mechanicalspider.com/concept.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="walking" src="http://mechanicalspider.com/elements/gifs/e005.gif" /&gt;&lt;/p&gt;
-
-&lt;p&gt;It is called the Klann Linkage, and is similar to the now famous Strandbeest, but seemingly simpler to implement and more suitable for motors.&lt;/p&gt;
-
-&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;progress &lt;a href="http://t.co/GuIs2ZJUpR"&gt;pic.twitter.com/GuIs2ZJUpR&lt;/a&gt;&lt;/p&gt;&amp;mdash; OFFRObot (@off_robot) &lt;a href="https://twitter.com/off_robot/statuses/431483822765383680"&gt;February 6, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;Next stop, simulationville &lt;a href="http://t.co/I0C4HUcWuP"&gt;pic.twitter.com/I0C4HUcWuP&lt;/a&gt;&lt;/p&gt;&amp;mdash; OFFRObot (@off_robot) &lt;a href="https://twitter.com/off_robot/statuses/433325102625611776"&gt;February 11, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;I found an &lt;a href="https://code.google.com/p/theeyestheywalk/"&gt;existing project&lt;/a&gt;, and wanted to see how the mechanism behaved so I took the cad files, modified them very slightly and then laser cut them out of cardboard.&lt;/p&gt;
-
-&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;Bits to atoms &lt;a href="https://twitter.com/search?q=%23hackthearduinorobot&amp;amp;src=hash"&gt;#hackthearduinorobot&lt;/a&gt; &lt;a href="https://t.co/t1d3r6l0PW"&gt;https://t.co/t1d3r6l0PW&lt;/a&gt;&lt;/p&gt;&amp;mdash; John Rees (@john_rees) &lt;a href="https://twitter.com/john_rees/statuses/435475277616254976"&gt;February 17, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p&gt;Rapid Prototyping &lt;a href="https://twitter.com/search?q=%23HackTheArduinoRobot&amp;amp;src=hash"&gt;#HackTheArduinoRobot&lt;/a&gt; &lt;a href="http://t.co/WXl1ljipAN"&gt;pic.twitter.com/WXl1ljipAN&lt;/a&gt;&lt;/p&gt;&amp;mdash; OFFRObot (@off_robot) &lt;a href="https://twitter.com/off_robot/statuses/435476309729611776"&gt;February 17, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;I also created a Pinterest board to start collecting ideas. People often overlook Pinterest, or dismiss it as a place where people gather pictures of hairstyles and clothing, but I find it to be an incredibly useful visual bookmarking tool.&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-pin-do="embedBoard" href="http://www.pinterest.com/bitsushi/walkers/" data-pin-scale-width="115" data-pin-scale-height="120" data-pin-board-width="900"&gt;Follow John's board WALKERS on Pinterest.&lt;/a&gt;
-&lt;!-- Please call pinit.js only once per page --&gt;
-&lt;script type="text/javascript" async="" src="//assets.pinterest.com/js/pinit.js"&gt;&lt;/script&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>

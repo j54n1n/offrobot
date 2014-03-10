@@ -1,0 +1,49 @@
+<phun2svg2>
+# 変換のパラメータ
+# Parameters for converter.
+$SCALE = 1/72.;
+$YOFFSET = 1;
+$XOFFSET = 0;
+@$RESOLUTION[0] = 1280;
+@$RESOLUTION[1] = 1024;
+</phun2svg2>
+
+
+<svg2phun2>
+# Phun オブジェクトのパラメータ
+# Parameters for Phun objects.
+## polygon, circle
+$DENSITY = 2.0;
+$FRICTION = 0.5;
+$RESTITUTION = 0.5;
+$FILLCOLOR = "#FFFFFF";
+## spring
+$SPRINGCOLOR = "#FFFFFF";
+$DAMPINGFACTOR = 0.1;
+$SIZE = 0.5;
+$STRENGTHFACTOR = 0.05;
+## hinge
+$HINGECOLOR = "#FFFFFF";
+$CCW = 'false';
+$CONTROLLER = '';
+$MOTOR = 'false';
+$MOTORSPEED = 1.570796370506287;
+$MOTORTORQUE = 100;
+
+
+# 変換のパラメータ
+# Parameters for converter.
+$SCALE = 1/72.;
+$YOFFSET = 0;
+$XOFFSET = 0;
+$PI = 3.141592;
+
+# 精度を指定するパラメータ。
+# 近似直線とベジエ曲線との距離。小さい値は高精度になる。
+# The parameter specifying accuracy of paths, distance between a
+# approximate line and a Bezier curve. A smaller value exhibits a
+# higher accuracy. 
+
+$APPROX_LINE_TOLERANCE = 0.5;
+
+</svg2phun2>
