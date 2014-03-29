@@ -5,10 +5,26 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-03-09T00:00:00Z</updated>
+  <updated>2014-03-29T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Laser cutting!</title>
+    <link rel="alternate" href="http://blog.url.com/2014/03/29/laser-cutting.html"/>
+    <id>http://blog.url.com/2014/03/29/laser-cutting.html</id>
+    <published>2014-03-29T00:00:00Z</published>
+    <updated>2014-03-29T12:01:18+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Guys! Sorry I'm not there yet, I'm frantically laser cutting plexiglass. This is how the final product will look -&lt;/p&gt;
+
+&lt;iframe width="100%" height="550" src="//www.youtube.com/embed/VQZwNb806sM" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;See you soon!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Version i-lost-count</title>
     <link rel="alternate" href="http://blog.url.com/2014/03/09/version-i-lost-count.html"/>
@@ -112,30 +128,6 @@
 &lt;p&gt;&lt;img alt="bottom board" src="http://arduino.cc/en/uploads/Main/LottieLemon_figure_ref_bottom.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;My electronics plans for this project are relatively straightforward. I want to send movement commands to the robot and receive feedback from sensors, such as strain on the motors and possibly things like temperature of the ground. For now I am happy testing the robot using just the lower board, but soon I will probably have to reflash it in order to use the IO pins without the upper board connected.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Algodoo</title>
-    <link rel="alternate" href="http://blog.url.com/2014/02/24/algodoo.html"/>
-    <id>http://blog.url.com/2014/02/24/algodoo.html</id>
-    <published>2014-02-24T00:00:00Z</published>
-    <updated>2014-02-26T17:29:10+01:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;After trying to get my head around lots of different software, I settled on using Algodoo (previously named Phun) for testing what my robot's walking motion might behave like. The nice thing about it, aside from seeing the actual motion path of the legs, will be that I can look at some of the forces involved and adjust the parts accordingly.&lt;/p&gt;
-
-&lt;p&gt;My main problem this month has been that my Mac is its last legs. Switching it off is always a gamble as I don't know if I'll ever hear that familiar boot chime again.&lt;/p&gt;
-
-&lt;p&gt;Anyway, I'm sharing this because initially I wanted to use Autodesk Inventor, a Windows application. If you are a student I highly recommend you to register for their student scheme where you can get every Autodesk product for free. After beating my HDD into submission and finally getting Boot Camp running I quickly ran out of disk space so eventually gave up and resorted to using kiddy physics simulators.&lt;/p&gt;
-
-&lt;p&gt;The video below shows my first attempt at creating spur gears (cogs) haha&lt;/p&gt;
-
-&lt;iframe width="420" height="315" src="//www.youtube.com/embed/7S8HxJ-PneI" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-
-&lt;p&gt;My next step will be to try and export what I design in more powerful software in a format that Algodoo understands. Whilst there are a couple of projects out there - svg2phun and an inscape plugin called phn_output - they seem quite dated and only have Japanese documentation.&lt;/p&gt;
-
-&lt;p&gt;Wish me luck!&lt;/p&gt;
 </content>
   </entry>
 </feed>
